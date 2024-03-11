@@ -1,7 +1,7 @@
 {
-  "name": "yjs-todo-app",
+  "name": "my-collaboration-examples",
   "version": "1.0.0",
-  "description": "",
+  "description": "包含各种协同相关的 examples",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
