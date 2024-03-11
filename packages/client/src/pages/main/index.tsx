@@ -6,10 +6,10 @@ export default function MainPage() {
     <div className="main-page">
       <div className="page-navigator">
         <div className="nav-item" style={{ backgroundColor: '#F2BAC9' }}>
-          <NavLink to="/decentralization">去中心化 TODO</NavLink>
+          <NavLink to="/todo?method=webrtc">webrtc TODO</NavLink>
         </div>
         <div className="nav-item" style={{ backgroundColor: '#A9CDEF' }}>
-          <NavLink to="/centralization">中心化 TODO</NavLink>
+          <NavLink to="/todo?method=websocket">websocket TODO</NavLink>
         </div>
       </div>
     </div>

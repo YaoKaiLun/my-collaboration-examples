@@ -1,9 +1,9 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
+import './style.less';
 
 const MainPage = React.lazy(() => import(/* webpackChunkName: "main_page" */ './pages/main'));
-const CentralizationPage = React.lazy(() => import(/* webpackChunkName: "centralization_page" */ './pages/centralization'));
-const DecentralizationPage = React.lazy(() => import(/* webpackChunkName: "decentralization_page" */ './pages/decentralization'));
+const TodoPage = React.lazy(() => import(/* webpackChunkName: "ws_page" */ './pages/todo'));
 
 export default function App() {
   return (
@@ -11,8 +11,7 @@ export default function App() {
       <HashRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/centralization" element={<CentralizationPage />} />
-          <Route path="/decentralization" element={<DecentralizationPage />} />
+          <Route path="/todo" element={<TodoPage />} />
         </Routes>
       </HashRouter>
     </React.Suspense>

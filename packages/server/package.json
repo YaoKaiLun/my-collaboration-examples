@@ -4,10 +4,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-webrtc": "node ./src/webrtc/signaling.js",
+    "start-ws": "node ./src/websocket/server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lib0": "^0.2.90",
+    "lodash": "^4.17.21",
+    "ws": "^8.16.0",
+    "y-protocols": "^1.0.6",
+    "yjs": "^13.6.12"
+  }
 }

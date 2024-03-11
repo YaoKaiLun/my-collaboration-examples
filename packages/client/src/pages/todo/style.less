@@ -1,0 +1,31 @@
+.todo-page {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(220deg, rgb(0, 200, 255) 10%, rgb(179, 0, 255) 90%) fixed;
+
+  .task-list-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  
+    @media (max-width: 640px) {
+      padding: 10px 5px
+    }
+  
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: #0007;
+    }
+  }
+}
