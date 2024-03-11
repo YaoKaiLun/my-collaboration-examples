@@ -1,10 +1,10 @@
-import useTaskStore from '../../stores/task';
+import useTaskStore from './stores/task';
 import TaskList from './components/taskList';
-import CollaborationService from '../../services/collaboration';
+import CollaborationService from './services/collaboration';
 import { useEffect, useRef, useState } from 'react';
-import { EnumTaskStatus, ITaskItem } from '../../types/task';
+import { EnumTaskStatus, ITaskItem } from './types/task';
 import { useSearchParams } from 'react-router-dom';
-import { getMockDoc } from '../../utils/mock';
+import { getMockDoc } from './utils/mock';
 import './style.less';
 
 type TodoListGroupMap = {

@@ -1,7 +1,7 @@
 import TaskItem from '../taskItem';
-import CollaborationService from '../../../../services/collaboration';
+import CollaborationService from '../../services/collaboration';
 import { useMemo } from 'react';
-import { EnumTaskStatus, ITaskItem } from '../../../../types/task';
+import { EnumTaskStatus, ITaskItem } from '../../types/task';
 import { ClockCircleOutlined, EditOutlined, CheckCircleOutlined } from '@ant-design/icons';
 import './style.less';
 

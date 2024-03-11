@@ -11,6 +11,9 @@ export default function MainPage() {
         <div className="nav-item" style={{ backgroundColor: '#A9CDEF' }}>
           <NavLink to="/todo?method=websocket">websocket TODO</NavLink>
         </div>
+        <div className="nav-item" style={{ backgroundColor: '#2E6171' }}>
+          <NavLink to="/slate">Slate Editor</NavLink>
+        </div>
       </div>
     </div>
   );

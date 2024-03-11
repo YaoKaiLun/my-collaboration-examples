@@ -1,5 +1,5 @@
-import CollaborationService from '../../../../services/collaboration';
-import { ITaskItem } from '../../../../types/task';
+import CollaborationService from '../../services/collaboration';
+import { ITaskItem } from '../../types/task';
 import { EditOutlined, DeleteOutlined } from '@ant-design/icons';
 import './style.less';
 
